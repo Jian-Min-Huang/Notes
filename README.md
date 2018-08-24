@@ -1,0 +1,2 @@
+# Notes
+coding, working, etc.
