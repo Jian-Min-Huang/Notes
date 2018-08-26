@@ -11,6 +11,7 @@
 介面雖容易達到單一職責，但類別實作則反之，須注意SRP切割的粒度，過度使用會造成類別暴增
 建議介面一定要做到單一職責，類別設計盡量做到只有一個原因會引起變更，而方法則盡可能一次只做一件事
 ```
+
 * OCP (Open Close Principle)
 ```
 對擴充開放，對修改關閉
@@ -126,33 +127,40 @@ Object之中的equals()就是委派物件自己去跟物件比較，而不是特
 物件的程式碼應該要有很高的比率只和物件內其他有關的程式碼有關聯，而對外部的程式碼，物件或元件等的關聯度要愈低愈好(最佳的狀態是零耦合)。
 Data Coupling > Message Coupling > Zero Coupling
 ```
-##### Design Pattern
-* Simple Factory 靜態工廠，XXXFactory.createApi(XXX xxx);
-* Factory Method 有四個物件，工廠抽象介面及實作類 還有 產品的抽象介面及實作類，把建構的過程切得更細
-* Abstract Factory 產品集的概念，基本上是組合多個工廠方法
-* Builder 每個物件的子部分個別建構複雜，統一集中建構隱藏細節
-* Prototype 建立物件需耗費資源跟時間時，使用複製的方式來產生新物件
-* Singleton 讓該物件在執行期只有唯一實例產生，但須注意執行緒安全的問題，寫法有許多種(差別是延遲生成實例或是使用ENUM)，最常見的用法是管理某種資源的XXXManager
-* Adapter 將目前的實現外掛上一個轉換來達到新功能，長相也像代理模式
-* Bridge 模組之間訂好溝通的協定或是抽象介面，方便實作類的切換，像是JAVA JDBC
-* Composite 數個物件之間，呈現一種樹狀結構。物件之間可以組合
-* Decorator 傳入一個核心物件然後再為他加上額外的功能，長相很像代理模式
-* Facade 限制外部對子模組的大量直接存取，設下一個固定入口，讓外部由此入口進入
-* Flyweight 細瑣物件占用記憶體，設計成一起共用的概念，像是JAVA STRING POOL
-* Proxy 長相類似裝飾者，保護代理是為控制核心物件的存取、虛代理是控制資源延時載入
-* Chain of Responsibility 在每個物件操作結束之後依序交後面那個物件繼續操作，像是JAVA SERVLET FILTER
-* Command 物件來代表實際行動，命令物件可以把行動(action)及其參數封裝起來。這些行動可以被重複或取消 像是SWING ACTION LISTENER
-* Interpreter 定義特殊語言來讓操作更加直觀 
-* Iterator 定義一個迭代器，用來遍歷資料結構，像是JAVA COLLECTIONS裏頭都有定義
-* Mediator 擔任多個模組之間的溝通協調中繼角色，避免各模組之間大量直接溝通造成的副作用
-* Memento 建立物件狀態復原點，通常會搭配clone使用，讓物件做出後續操作之後，如果出錯可以回復到上個復原點
-* Observer 物件之間的相依變化，當一個被觀察者發生變化要回呼觀察者做出動作
-* State 以策略模式為基底，加上屬性來表示物件狀態，在每次操作的過程中需要維護物件的狀態
-* Strategy 傳入多個抽象介面並組合這些抽象介面的方法來定義演算法骨幹
-* Template Method 用一個抽象類別來定義演算法骨幹，把許多預設實現或是留待子類別實現的方法串起來，像是SPRING JDBC TEMPLATE
-* Visitor ?
 
+##### Design Pattern
+* Gof 23
 ```
+Simple Factory 靜態工廠，XXXFactory.createApi(XXX xxx);
+Factory Method 有四個物件，工廠抽象介面及實作類 還有 產品的抽象介面及實作類，把建構的過程切得更細
+Abstract Factory 產品集的概念，基本上是組合多個工廠方法
+Builder 每個物件的子部分個別建構複雜，統一集中建構隱藏細節 (包含流利介面)
+Prototype 建立物件需耗費資源跟時間時，使用複製的方式來產生新物件
+Singleton 讓該物件在執行期只有唯一實例產生，但須注意執行緒安全的問題，寫法有許多種(差別是延遲生成實例或是使用ENUM)，最常見的用法是管理某種資源的XXXManager
+Adapter 將目前的實現外掛上一個轉換來達到新功能，長相也像代理模式
+Bridge 模組之間訂好溝通的協定或是抽象介面，方便實作類的切換，像是JAVA JDBC
+Composite 數個物件之間，呈現一種樹狀結構。物件之間可以組合
+Decorator 傳入一個核心物件然後再為他加上額外的功能，長相很像代理模式
+Facade 限制外部對子模組的大量直接存取，設下一個固定入口，讓外部由此入口進入
+Flyweight 細瑣物件占用記憶體，設計成一起共用的概念，像是JAVA STRING POOL
+Proxy 長相類似裝飾者，保護代理是為控制核心物件的存取、虛代理是控制資源延時載入
+Chain of Responsility 在每個物件操作結束之後依序交後面那個物件繼續操作，像是JAVA SERVLET FILTER
+Command 物件來代表實際行動，命令物件可以把行動(action)及其參數封裝起來。這些行動可以被重複或取消 像是SWING ACTION LISTENER
+Interpreter 定義特殊語言來讓操作更加直觀
+Iterator 定義一個迭代器，用來遍歷資料結構，像是JAVA COLLECTIONS裏頭都有定義
+Mediator 擔任多個模組之間的溝通協調中繼角色，避免各模組之間大量直接溝通造成的副作用
+Memento 建立物件狀態復原點，通常會搭配clone使用，讓物件做出後續操作之後，如果出錯可以回復到上個復原點
+Observer 物件之間的相依變化，當一個被觀察者發生變化要回呼觀察者做出動作
+State 以策略模式為基底，加上屬性來表示物件狀態，在每次操作的過程中需要維護物件的狀態
+Strategy 傳入多個抽象介面並組合這些抽象介面的方法來定義演算法骨幹
+Template Method 用一個抽象類別來定義演算法骨幹，把許多預設實現或是留待子類別實現的方法串起來，像是SPRING JDBC TEMPLATE
+Visitor ?
+```
+
+* Unclassified
+```
+https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+
 Guarded Suspension
 Producer Consumer
 Thread Per Message
