@@ -1,11 +1,11 @@
 ##### basic operation
 ```
-i 
-u
-:q
-:w
-:e
-:q!
+i, insert
+u, undo
+:q, quit
+:w, write
+:e, revert last version
+!, force
 ```
 
 ##### search text forward and backward

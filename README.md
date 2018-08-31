@@ -17,7 +17,7 @@
   * [Maven][SQL.md-page]
   * [Gradle][SQL.md-page]
 * RDMS
-  * [SQL][SQL.md-page]
+  * [Sql Note][SqlNote.md-page]
   * [Oracle][SQL.md-page]
 * NOSQL
   * [Redis][SQL.md-page]
@@ -26,7 +26,7 @@
 * Operation System
   * [Bash][SQL.md-page]
   * [Linux][SQL.md-page]
-  * [vim][SQL.md-page]
+  * [Vim Note][Vim Note-page]
 * Server
   * [Nginx][SQL.md-page]
   * [Nexus][SQL.md-page]
@@ -38,13 +38,13 @@
 
 ### Tools
 * [Intellij IDEA Hot Keys][SQL.md-page]
-* [Intellij IDEA Settings][SQL.md-page]
-* [WebStorm Settings][SQL.md-page]
-* [Postman Settings][SQL.md-page]
-* [Navicat Settings][SQL.md-page]
+* [JetBrains Settings][JetBrains Settings-page]
+* [Postman Settings][Postman Settings-page]
 
-[SQL.md-page]: <markdown/SQL.md>
-[vim.md-page]: <markdown/vim.md>
+[JetBrains Settings-page]: <markdown/JetBrainsSettings.md>
+[Postman Settings-page]: <markdown/PostmanSettings.md>
+[Vim Note-page]: <markdown/VimNote.md>
+[Sql Note-page]: <markdown/SqlNote.md>
 
 [:arrow_up: back to top][top-page]
 
