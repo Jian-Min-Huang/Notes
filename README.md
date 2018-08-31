@@ -5,22 +5,22 @@
 * [Coding Issue][SQL.md-page]
 * [Coding Note][SQL.md-page]
 * [OOAD Note][SQL.md-page]
-* [Regular Expression][SQL.md-page]
+* [Regular Expression Note][Regular Expression Note-page]
 
 ### Frontend
-* [NPM][SQL.md-page]
+* [Npm Note][Npm Note-page]
 
 ### Backend
 * Java
 * C#
 * Build Tool
-  * [Maven][SQL.md-page]
-  * [Gradle][SQL.md-page]
+  * [Maven Note][Maven Note-page]
+  * [Gradle Note][Gradle Note-page]
 * RDMS
-  * [Sql Note][SqlNote.md-page]
+  * [Sql Note][Sql Note-page]
   * [Oracle][SQL.md-page]
 * NOSQL
-  * [Redis][SQL.md-page]
+  * [Redis Note][Redis Note-page]
 
 ### Infra
 * Operation System
@@ -45,6 +45,11 @@
 [Postman Settings-page]: <markdown/PostmanSettings.md>
 [Vim Note-page]: <markdown/VimNote.md>
 [Sql Note-page]: <markdown/SqlNote.md>
+[Gradle Note-page]: <markdown/GradleNote.md>
+[Redis Note-page]: <markdown/RedisNote.md>
+[Regular Expression Note-page]: <markdown/RegularExpressionNote.md>
+[Npm Note-page]: <markdown/NpmNote.md>
+[Maven Note-page]: <markdown/MavenNote.md>
 
 [:arrow_up: back to top][top-page]
 

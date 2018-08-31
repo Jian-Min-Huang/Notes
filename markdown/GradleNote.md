@@ -13,8 +13,7 @@ $ ./gradlew sport-core:dependencies --configuration compile
 $ ./gradlew sport-core:publishToMavenLocal
 ```
 
-##### publishToMavenLocal
+##### check
 ```sh
 $ ./gradlew sport-api:check
 ```
-
