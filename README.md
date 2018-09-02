@@ -28,7 +28,7 @@
   * [Linux][SQL.md-page]
   * [Vim Note][Vim Note-page]
 * Server
-  * [Nginx][SQL.md-page]
+  * [Nginx Note][Nginx Note-page]
   * [Nexus][SQL.md-page]
 * Version Control
   * [Git Note][Git Note-page]
@@ -39,10 +39,10 @@
 ### Tools
 * [Intellij IDEA Hot Keys][SQL.md-page]
 * [JetBrains Settings][JetBrains Settings-page]
-* [Postman Settings][Postman Settings-page]
+* [Other Tools Settings][Other Tools Settings-page]
 
 [JetBrains Settings-page]: <markdown/JetBrainsSettings.md>
-[Postman Settings-page]: <markdown/PostmanSettings.md>
+[Other Tools Settings-page]: <markdown/OtherToolsSettings.md>
 [Vim Note-page]: <markdown/VimNote.md>
 [Sql Note-page]: <markdown/SqlNote.md>
 [Gradle Note-page]: <markdown/GradleNote.md>
@@ -52,6 +52,7 @@
 [Maven Note-page]: <markdown/MavenNote.md>
 [Oracle Note-page]: <markdown/OracleNote.md>
 [Git Note-page]: <markdown/GitNote.md>
+[Nginx Note-page]: <markdown/NginxNote.md>
 
 [:arrow_up: back to top][top-page]
 

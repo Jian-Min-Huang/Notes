@@ -1,4 +1,5 @@
 ##### setting upstream header size
+```
 Example of proxy buffering configuration
 http {
   proxy_buffer_size   128k;
@@ -9,6 +10,7 @@ Example of disabling your proxy buffer (recommended for long polling servers)
 http {
   proxy_buffering off;
 }
+```
 
 ##### location
 ```sh
@@ -31,4 +33,5 @@ $ nginx -s reopen
 $ nginx -s stop
 $ nginx -s quit
 $ nginx -t
+$ nginx -c /etc/nginx/nginx.conf
 ```
