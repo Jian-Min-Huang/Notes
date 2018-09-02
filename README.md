@@ -18,7 +18,7 @@
   * [Gradle Note][Gradle Note-page]
 * RDMS
   * [Sql Note][Sql Note-page]
-  * [Oracle][SQL.md-page]
+  * [Oracle Note][Oracle Note-page]
 * NOSQL
   * [Redis Note][Redis Note-page]
 
@@ -31,7 +31,7 @@
   * [Nginx][SQL.md-page]
   * [Nexus][SQL.md-page]
 * Version Control
-  * [Git][SQL.md-page]
+  * [Git Note][Git Note-page]
 * DevOps
   * [Docker][SQL.md-page]
   * [Kubernetes][SQL.md-page]
@@ -50,6 +50,8 @@
 [Regular Expression Note-page]: <markdown/RegularExpressionNote.md>
 [Npm Note-page]: <markdown/NpmNote.md>
 [Maven Note-page]: <markdown/MavenNote.md>
+[Oracle Note-page]: <markdown/OracleNote.md>
+[Git Note-page]: <markdown/GitNote.md>
 
 [:arrow_up: back to top][top-page]
 
