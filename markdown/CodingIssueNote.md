@@ -1,3 +1,8 @@
+##### Compare
+* Service Discover, client vs server
+* jwt token security
+* Akka vs MQ
+
 ##### Web
 * OAUTH
 * Security
