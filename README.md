@@ -13,6 +13,7 @@
 
 ### Backend
 * Java
+  * [Java Note][Java Note-page]
 * C#
 * Build Tool
   * [Maven Note][Maven Note-page]
@@ -25,20 +26,20 @@
 
 ### Infra
 * Operation System
-  * [Bash][SQL.md-page]
-  * [Linux][SQL.md-page]
+  * [Bash Note][Bash Note-page]
+  * [Linux Note][Linux Note-page]
   * [Vim Note][Vim Note-page]
 * Server
   * [Nginx Note][Nginx Note-page]
-  * [Nexus][SQL.md-page]
+  * [Nexus Note][Nexus Note-page]
 * Version Control
   * [Git Note][Git Note-page]
 * DevOps
-  * [Docker][SQL.md-page]
-  * [Kubernetes][SQL.md-page]
+  * [Docker Note][Docker Note-page]
+  * [Kubernetes Note][Kubernetes Note-page]
 
 ### Tools
-* [Intellij IDEA Hot Keys][SQL.md-page]
+* [JetBrains HotKeys Note][JetBrains HotKeys Note-page]
 * [JetBrains Settings][JetBrains Settings-page]
 * [Other Tools Settings][Other Tools Settings-page]
 
@@ -56,6 +57,13 @@
 [Nginx Note-page]: <markdown/NginxNote.md>
 [Roadmap Note-page]: <markdown/RoadmapNote.md>
 [Coding Issue Note-page]: <markdown/CodingIssueNote.md>
+[Bash Note-page]: <markdown/BashNote.md>
+[Java Note-page]: <markdown/JavaNote.md>
+[Nexus Note-page]: <markdown/NexusNote.md>
+[Docker Note-page]: <markdown/DockerNote.md>
+[Kubernates Note-page]: <markdown/KubernatesNote.md>
+[Linux Note-page]: <markdown/LinuxNote.md>
+[JetBrains HotKeys Note-page]: <markdown/JetBrainsHotKeysNote.md>
 
 [:arrow_up: back to top][top-page]
 

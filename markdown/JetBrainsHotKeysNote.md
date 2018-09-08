@@ -80,6 +80,7 @@ Find Usage                      alt + f7
 * Special
 ```
 auto add ;                      cmd + shift + enter
+paste history                   cmd + shift + v
 ```
 
 * Inject language of reference
@@ -89,4 +90,3 @@ alt + enter, edit fragament
 ctrl + f4, close tab
 ```
 
-cmd + shift + v

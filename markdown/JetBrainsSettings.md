@@ -39,6 +39,11 @@ File based project, local configuration: .iws file
 Directory based project, local configuration: workspace.xml file under .idea directory
 File based project, shared configuration: .ipr file
 Directory based project, shared configuration: .xml file under runConfigurations subdirectory of .idea directory
+
+But if you go to the setup dialog of the run configuration (run configurations drop down > Edit configurations), 
+there should be a checkbox "Share" right next to the name of the run configuration. 
+What it does is that it stores the settings of that run configuration in the .ipr file (or in the .idea directory). 
+If you share your project file with your team through version control, they'll have access to that run configuration as well. Hope that helps!
 ```
 
 ##### webstorm
