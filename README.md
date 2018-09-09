@@ -64,6 +64,7 @@
 [Kubernates Note-page]: <markdown/KubernatesNote.md>
 [Linux Note-page]: <markdown/LinuxNote.md>
 [JetBrains HotKeys Note-page]: <markdown/JetBrainsHotKeysNote.md>
+[Solution Note-page]: <markdown/SolutionNote.md>
 
 [:arrow_up: back to top][top-page]
 
