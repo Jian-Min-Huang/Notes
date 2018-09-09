@@ -44,6 +44,12 @@ But if you go to the setup dialog of the run configuration (run configurations d
 there should be a checkbox "Share" right next to the name of the run configuration. 
 What it does is that it stores the settings of that run configuration in the .ipr file (or in the .idea directory). 
 If you share your project file with your team through version control, they'll have access to that run configuration as well. Hope that helps!
+
+Export data source settings
+Click File | Export Settings.
+In the Export settings window, click Select None.
+In the Export settings window, select Database: drivers, Database: settings, and Database: global sources.
+In the Export settings to field, type a path to the folder where you want to store the settings.zip file.
 ```
 
 ##### webstorm

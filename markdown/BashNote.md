@@ -22,6 +22,7 @@ $ tar -zxf log.tar.gz
 ##### Q : decompress gz file
 ```sh
 $ gunzip log.gz
+$ gunzip -S zip lottery-kill.log.2018-08-22.0.zip
 ```
 
 ##### Q : SCP remote to local and local to remote
