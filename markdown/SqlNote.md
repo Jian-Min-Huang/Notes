@@ -12,3 +12,10 @@ sql> SELECT
      HAVING
         COUNT(*) > 1;
 ```
+
+##### 必要欄位
+* id
+* create time
+* update time
+* comment
+* extra

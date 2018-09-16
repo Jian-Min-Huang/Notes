@@ -23,7 +23,7 @@
 
 ##### N層式系統結構
 * CDN
-* Gateway (反向代理, 負載平衡, 靜態資源管理, 路由管理, 服務發現 降級 熔斷, 監聽及過濾, 健康檢查, 權限, 監控, 限流, 快取, 轉換, 日誌)
+* API Gateway (反向代理, 負載平衡, 靜態資源管理, 路由管理, 服務發現 降級 熔斷, 監聽及過濾, 健康檢查, 權限, 監控, 限流, 快取, 轉換, 日誌)
   * 表現層
   * 控制層 檢查引數, 驗證權限, 派發請求, 處理回應
     * 快取層 使用快取
@@ -56,9 +56,10 @@
 * OAuth Token無狀態負載平衡
 ##### 分散式應用程序
 * Akka messaging, RESTFul, RPC, RMI, SOAP
-##### 前端加速
-* DNS prefetching
-* GZIP
+##### Microservice
+* api gateway, serivce mesh
+##### Gateway & Exchange
+
 
 ##### 大型系統
 * api 純函數無內部狀態, 可水平擴展 (avoid servlet thread per request)
@@ -224,6 +225,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 做每一步都要慢下來看效能設計有沒有更好的地方 lottery-api (100*1 100*1, 300*1 100*1)
 * 分散式交易大概有四種做法 (two phase, Q, 一個thread監督, 寫紀錄事後監督)
 * left join 可以做到傳統join寫法做不到的事
+* DNS prefetching GZIP
 
 ##### 坑
 * 編碼(HTTP, JAVA COMPILE, LOG, DB)
@@ -302,7 +304,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
        trello, 
        wiki, 
        issue for meeting, 
-       跨部門合作DS PM RD QA CS INFRA OP BOSS, 
+       跨部門合作DS PM RD QA CS INFRA OP 業務 BOSS, 
        每季的檢討
 (自學) 語言特性的本質 (例如純函數 FP method invoke chain 其實也能透過java+dp完成 是看寫的人的態度)
 (自學) 問問題 
@@ -314,7 +316,9 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
        問自己能不能更好 ? 
        效能瓶頸在哪 ? 
        自己替自己解答 ?
-(伯牙) Lottery & Sport Project
+(伯牙) Winter & Sport & Lottery Project 
 (伯牙) 好好寫Google Doc
 (伯牙) 同一個東西能不能用不同架構完成 (開獎用mq 改成 actor)
+(伯牙) 更深度的docker應用, private registry, docker-compose, kubenates
+(伯牙) 學會面試
 ```
