@@ -226,6 +226,8 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 分散式交易大概有四種做法 (two phase, Q, 一個thread監督, 寫紀錄事後監督)
 * left join 可以做到傳統join寫法做不到的事
 * DNS prefetching GZIP
+* 設定類只記有的 沒得給預設
+* 接受 理解 提問 假設 改進 結論 出師
 
 ##### 坑
 * 編碼(HTTP, JAVA COMPILE, LOG, DB)
