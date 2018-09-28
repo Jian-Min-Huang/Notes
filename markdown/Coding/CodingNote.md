@@ -228,6 +228,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * DNS prefetching GZIP
 * 設定類只記有的 沒得給預設
 * 接受 理解 提問 假設 改進 結論 出師
+* post的優點是可以只改object內容 經過之處不用多動 當然你可以透過改造get來得到一樣效果  /issue/search?xxx, xxx=object, 但這個對於純正restful來說又有點變異
 
 ##### 坑
 * 編碼(HTTP, JAVA COMPILE, LOG, DB)
@@ -254,6 +255,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * @Transaction 坑 互咬
 * @Bean 不需要 直接new
 * Kafka 有兩個錯誤議題 一個是NoSuchFile, 一個是index不同步, producerfencedexception
+* 注意docker alpine有缺epoll kqueue
 
 ##### 寫程式的演進
 ```
@@ -322,5 +324,6 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 (伯牙) 好好寫Google Doc
 (伯牙) 同一個東西能不能用不同架構完成 (開獎用mq 改成 actor)
 (伯牙) 更深度的docker應用, private registry, docker-compose, kubenates
-(伯牙) 學會面試
+(伯牙) 學會面試人
+(伯牙) 為了別的部門設想（使用docker可以讓他們只學一套）
 ```

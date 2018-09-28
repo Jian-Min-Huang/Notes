@@ -1,7 +1,14 @@
 ##### Compare
 * Service Discover, client vs server
-* jwt token security
+* jwt token security & cookie session
 * Akka vs MQ
+* batch vs stream processing
+  * batch, no organize, schedule trigger, spark streaming is micro batch
+  * stream, organize, event-driven, storm streaming
+  * Batch processing is generally appropriate for use cases where having the most up-to-date data is not important and where tolerance for slower response time is higher. For example, offline analysis of historical data to compute results or identify correlations is a common batch processing use case.
+  * Stream processing, on the other hand, is necessary for use cases that require live interaction and real-time responsiveness. Financial transaction processing, real-time fraud detection, and real-time pricing are examples that best-fit stream processing.
+* Docker 與虛擬機器
+* oo, fp, stream
 
 ##### Web
 * OAUTH

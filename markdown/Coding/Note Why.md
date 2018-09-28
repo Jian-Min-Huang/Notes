@@ -290,4 +290,7 @@ Collections.sort(list, new Comparator<Integer>() {
 不修改代码 
 那么问题来了。为什么上面代码在JDK6中运行无问题，而在JDK7中却会抛异常呢？这是因为JDK7底层的排序算法换了，如果要继续使用JDK6的排序算法，可以在JVM的启动参数中加入如下参数： 
 [plain] view plain copy print?在CODE上查看代码片派生到我的代码片 
--Djava.util.Arrays.useLegacyMergeSort=true  
+-Djava.util.Arrays.useLegacyMergeSort=true
+
+With the introduction of default methods in interfaces, it seems that the abstract classes are same as interface in java 8. However this is not entirely true, even though we can now have concrete methods(methods with body) in interfaces just like abstract class, this doesn’t mean that they are same. There are still few differences between them, one of them is that abstract class can have constructor while in interfaces we can’t have constructors.
+The purpose of interface is to provide full abstraction, while the purpose of abstract class is to provide partial abstraction. This still holds true. The interface is like a blueprint for your class, with the introduction of default methods you can simply say that we can add additional features in the interfaces without affecting the end user classes.

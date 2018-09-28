@@ -43,28 +43,28 @@
 * [JetBrains Settings][JetBrains Settings-page]
 * [Other Tools Settings][Other Tools Settings-page]
 
-[JetBrains Settings-page]: <markdown/JetBrainsSettings.md>
-[Other Tools Settings-page]: <markdown/OtherToolsSettings.md>
-[Vim Note-page]: <markdown/VimNote.md>
-[Sql Note-page]: <markdown/SqlNote.md>
-[Gradle Note-page]: <markdown/GradleNote.md>
-[Redis Note-page]: <markdown/RedisNote.md>
-[Regular Expression Note-page]: <markdown/RegularExpressionNote.md>
-[Npm Note-page]: <markdown/NpmNote.md>
-[Maven Note-page]: <markdown/MavenNote.md>
-[Oracle Note-page]: <markdown/OracleNote.md>
-[Git Note-page]: <markdown/GitNote.md>
-[Nginx Note-page]: <markdown/NginxNote.md>
-[Roadmap Note-page]: <markdown/RoadmapNote.md>
-[Coding Issue Note-page]: <markdown/CodingIssueNote.md>
-[Bash Note-page]: <markdown/BashNote.md>
-[Java Note-page]: <markdown/JavaNote.md>
-[Nexus Note-page]: <markdown/NexusNote.md>
-[Docker Note-page]: <markdown/DockerNote.md>
-[Kubernates Note-page]: <markdown/KubernatesNote.md>
-[Linux Note-page]: <markdown/LinuxNote.md>
-[JetBrains HotKeys Note-page]: <markdown/JetBrainsHotKeysNote.md>
-[Solution Note-page]: <markdown/SolutionNote.md>
+[JetBrains Settings-page]: <markdown/IDE/JetBrainsSettings.md>
+[Other Tools Settings-page]: <markdown/Service/OtherToolsSettings.md>
+[Vim Note-page]: <markdown/Linux/VimNote.md>
+[Sql Note-page]: <markdown/Database/SqlNote.md>
+[Gradle Note-page]: <markdown/Java/GradleNote.md>
+[Redis Note-page]: <markdown/Database/RedisNote.md>
+[Regular Expression Note-page]: <markdown/Common/RegularExpressionNote.md>
+[Npm Note-page]: <markdown/Javascript/NpmNote.md>
+[Maven Note-page]: <markdown/Java/MavenNote.md>
+[Oracle Note-page]: <markdown/Database/OracleNote.md>
+[Git Note-page]: <markdown/DevOps/GitNote.md>
+[Nginx Note-page]: <markdown/Service/NginxNote.md>
+[Roadmap Note-page]: <markdown/Coding/RoadmapNote.md>
+[Coding Issue Note-page]: <markdown/Coding/CodingIssueNote.md>
+[Bash Note-page]: <markdown/Linux/BashNote.md>
+[Java Note-page]: <markdown/Java/JavaNote.md>
+[Nexus Note-page]: <markdown/Service/NexusNote.md>
+[Docker Note-page]: <markdown/DevOps/Docker/DockerNote.md>
+[Kubernates Note-page]: <markdown/DevOps/Kubenates/KubernatesNote.md>
+[Linux Note-page]: <markdown/Linux/LinuxNote.md>
+[JetBrains HotKeys Note-page]: <markdown/IDE/JetBrainsHotKeysNote.md>
+[Solution Note-page]: <markdown/Coding/SolutionNote.md>
 
 [:arrow_up: back to top][top-page]
 

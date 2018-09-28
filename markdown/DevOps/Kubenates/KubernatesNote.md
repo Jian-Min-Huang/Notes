@@ -8,6 +8,8 @@
 
 * kubectl cluster-info
 
+* kubectl get nodes
+
 * kubectl create namespace develop
 * kubectl get namespace
 
@@ -15,16 +17,25 @@
 * kubectl get pod -o wide
 * kubectl get services --namespace=kube-system
 * kubectl get deployments --namespace=kube-system
-
-* kubectl get nodes
-
-* kubectl port-forward kubernetes-dashboard-7798c48646-ctrtl 8443:8443 — namespace=kube-system
-* kubectl run hello-nginx --image=nginx --port=80
+* kubectl get all
 
 * kubectl describe pods hello-nginx-5d47cdc4b7-wxf9b --namespace=default
 * kubectl describe services hello-nginx --namespace=default
 
 * kubectl delete pods hello-nginx-5d47cdc4b7-wxf9b --namespace=default
+* kubectl delete --all deployments --namespace=default
+* kubectl delete --all pods --namespace=default
+
+* kubectl port-forward kubernetes-dashboard-7b9c7bc8c9-fr6z5 8443:8443 --namespace=kube-system
+* kubectl run hello-nginx --image=nginx --port=80
+
+
+kubectl expose pod <pod> --port=<port> --name=<service-name>
+kubectl port-forward <pod> <external-port>:<pod-port>
+
+
+
+
 
 * kubectl scale --replicas=3 deployment/hello-nginx
 
