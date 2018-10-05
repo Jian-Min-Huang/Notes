@@ -187,6 +187,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 空間換時間
 * 快取 > 硬碟
 * 省流量 差異 > 全部
+* 熱身 暖機 熱資料
 * method inline (例如 logger isDebugEnabled)
 * 用多型代替if else
 * 封裝行為與使用委派原則 (例如不要用xxxUtil)
