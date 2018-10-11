@@ -200,8 +200,9 @@ docker run -it --name tc-server -e "TZ=Asia/Taipei" -v /tmp/tc/datadir:/data/tea
 docker run -it --name tc-agent1 -e "TZ=Asia/Taipei" -e SERVER_URL=192.168.250.37:8111 -v /tmp/tc/conf:/data/teamcity_agent/conf -v /var/run/docker.sock:/var/run/docker.sock jetbrains/teamcity-agent
 
 docker rmi $(docker images -f "dangling=true" -q)
+docker rmi -f $(docker images --filter=reference='10.10.1.31*/*' -q)
 
-https://docs.docker.com/install/linux/docker-ce/centos/https://docs.docker.com/install/linux/docker-ce/centos/
+https://docs.docker.com/install/linux/docker-ce/centos/
 
 window 8 docker ip $(docker-machine ip default)
 usually 192.168.99.100

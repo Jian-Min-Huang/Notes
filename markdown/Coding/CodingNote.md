@@ -230,6 +230,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 設定類只記有的 沒得給預設
 * 接受 理解 提問 假設 改進 結論 出師
 * post的優點是可以只改object內容 經過之處不用多動 當然你可以透過改造get來得到一樣效果  /issue/search?xxx, xxx=object, 但這個對於純正restful來說又有點變異
+* new Date().getTime() vs System.currentTimeMillis()
 
 ##### 坑
 * 編碼(HTTP, JAVA COMPILE, LOG, DB)
@@ -257,6 +258,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * @Bean 不需要 直接new
 * Kafka 有兩個錯誤議題 一個是NoSuchFile, 一個是index不同步, producerfencedexception
 * 注意docker alpine有缺epoll kqueue
+* jpa 名字壞掉直接炸 spring boot直接開不起來又沒有log
 
 ##### 寫程式的演進
 ```
