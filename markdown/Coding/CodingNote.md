@@ -231,6 +231,8 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 接受 理解 提問 假設 改進 結論 出師
 * post的優點是可以只改object內容 經過之處不用多動 當然你可以透過改造get來得到一樣效果  /issue/search?xxx, xxx=object, 但這個對於純正restful來說又有點變異
 * new Date().getTime() vs System.currentTimeMillis()
+* springfox 文件化
+* 確保每個重要block有log
 
 ##### 坑
 * 編碼(HTTP, JAVA COMPILE, LOG, DB)
