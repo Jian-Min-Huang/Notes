@@ -233,6 +233,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * new Date().getTime() vs System.currentTimeMillis()
 * springfox 文件化
 * 確保每個重要block有log
+* guava, apache common lang
 
 ##### 坑
 * 編碼(HTTP, JAVA COMPILE, LOG, DB)

@@ -155,19 +155,6 @@ State 以策略模式為基底，加上屬性來表示物件狀態，在每次�
 Strategy 傳入多個抽象介面並組合這些抽象介面的方法來定義演算法骨幹
 Template Method 用一個抽象類別來定義演算法骨幹，把許多預設實現或是留待子類別實現的方法串起來，像是SPRING JDBC TEMPLATE
 Visitor ?
-```
-
-* Unclassified
-```
-https://www.enterpriseintegrationpatterns.com/patterns/messaging/
-
-Guarded Suspension
-Producer Consumer
-Thread Per Message
-Worker Thread
-Thread Pool
-Future
-Read Write Lock
 
 Creational
     Abstract factory pattern groups object factories that have a common theme.
@@ -196,3 +183,19 @@ Behavioral
     Template method defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior.
     Visitor separates an algorithm from an object structure by moving the hierarchy of methods into one object.
 ```
+
+##### multi-thread pattern
+```
+Guarded Suspension
+Producer Consumer
+Thread-Per-Message
+Worker Thread
+Thread Pool
+Future
+Read-Write-Lock
+Two-phase Termination
+Thread-Specific Storage
+```
+
+##### enterprise pattern
+* https://www.enterpriseintegrationpatterns.com/patterns/messaging/

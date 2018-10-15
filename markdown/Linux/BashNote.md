@@ -98,7 +98,7 @@ fi
 $ grep -v grep
 ```
 
-
-
-grep -v grep
-
+##### du
+```sh
+du -sh /opt/nexus3/sonatype-work/nexus3/blobs/default/content
+```
