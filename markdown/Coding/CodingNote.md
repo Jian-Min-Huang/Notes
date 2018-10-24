@@ -195,6 +195,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 用Int則是方便數學計算，程式碼更簡潔
 * 避免子函數互相呼叫(放到主流程邏輯會比較清晰)
 * 10Mbps = 10 * 1024K bit / s = 10 * 1024 / 8 KBs = 1250 KB/s = 1.25 MB/s
+* 一個thread約1mb, 一個actor約300bytes, 一個fiber約400bytes 
 * short:2,int:4,long:8,float:4,double:8,char:2,byte:1,boolean:dependent jvm
 * POC經驗
   * 小型範例與測試
