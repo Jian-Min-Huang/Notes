@@ -189,7 +189,7 @@ EXPOSE 差別是容器可直連
 docker network inspect zkkafka_inner
 
 ##### images
-docker run -it --rm -p 8080:80 dorowu/ubuntu-desktop-lxde-vnc
+docker run -d -p 5900:5900 -e VNC_PASSWORD=password dorowu/ubuntu-desktop-lxde-vnc
 
 docker run --name redis -d -p 6379:6379 -e "TZ=Asia/Taipei" redis:3.2.11
 docker run --name oracle -d -p 8888:8080 -p 1521:1521 -e "TZ=Asia/Taipei" sath89/oracle-xe-11g

@@ -263,6 +263,8 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * Kafka 有兩個錯誤議題 一個是NoSuchFile, 一個是index不同步, producerfencedexception
 * 注意docker alpine有缺epoll kqueue
 * jpa 名字壞掉直接炸 spring boot直接開不起來又沒有log
+* fuckinnnnnnnnnnnnnnnnnnnnnnng selinux docker 權限R
+* docker 要掛東西要記得權限問題
 
 ##### 寫程式的演進
 ```
