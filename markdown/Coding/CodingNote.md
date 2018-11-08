@@ -264,7 +264,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 注意docker alpine有缺epoll kqueue
 * jpa 名字壞掉直接炸 spring boot直接開不起來又沒有log
 * fuckinnnnnnnnnnnnnnnnnnnnnnng selinux docker 權限R
-* docker 要掛東西要記得權限問題
+* docker 要掛東西要記得權限問題 chmod 777
 
 ##### 寫程式的演進
 ```
