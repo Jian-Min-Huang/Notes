@@ -206,3 +206,5 @@ https://docs.docker.com/install/linux/docker-ce/centos/
 
 window 8 docker ip $(docker-machine ip default)
 usually 192.168.99.100
+
+JOIN_IP="$(docker inspect -f '{{.NetworkSettings.IPAddress}}' node1)"
