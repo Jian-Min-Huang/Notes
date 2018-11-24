@@ -216,3 +216,5 @@
 > AMQP, JMS, MQTT
 > 阿里Dubbo, Netflix, Typesafe Lagom
 > Guard Clauses
+> Headless, e2e, selenium
+> httpbin

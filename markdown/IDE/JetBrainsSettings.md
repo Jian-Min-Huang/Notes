@@ -9,6 +9,13 @@
 * keymap
 * quick documentation
 
+##### plugin
+* lombok
+* ranbow braces
+* pmd
+* checkstyle
+* Lua
+
 ##### run tomcat
 * Server
   * On 'update' action: Update classes and resources

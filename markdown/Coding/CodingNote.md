@@ -336,5 +336,5 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 (伯牙) 更深度的docker應用, private registry, docker-compose, kubenates
 (伯牙) 學會面試人
 (伯牙) 為了別的部門設想（使用docker可以讓他們只學一套）
-(伯牙) 丹尼爾的一系列新政（github flow mr, checkstyle & pmd）
+(伯牙) 丹尼爾的一系列新政（github flow mr, checkstyle & pmd, gitlab ci/cd pipeline）
 ```
