@@ -236,6 +236,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 確保每個重要block有log
 * guava, apache common lang
 * kafka 開獎大概3ms/筆
+* 採新雷
 
 ##### 坑
 * 編碼(HTTP, JAVA COMPILE, LOG, DB)
@@ -336,5 +337,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 (伯牙) 更深度的docker應用, private registry, docker-compose, kubenates
 (伯牙) 學會面試人
 (伯牙) 為了別的部門設想（使用docker可以讓他們只學一套）
-(伯牙) 丹尼爾的一系列新政（github flow mr, checkstyle & pmd, gitlab ci/cd pipeline）
+(伯牙) 丹尼爾的一系列新政（github flow mr, checkstyle & pmd, gitlab ci/cd pipeline, efk）
+(伯牙) spring clund, k8s
+(伯牙) 更大的架構 (ark-platform), 架構的演進 實體機部署 虛擬機部署() 雲端虛擬化(AWS) 雲端原生化(docker, k8s)
 ```

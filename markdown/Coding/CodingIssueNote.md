@@ -9,6 +9,8 @@
   * Stream processing, on the other hand, is necessary for use cases that require live interaction and real-time responsiveness. Financial transaction processing, real-time fraud detection, and real-time pricing are examples that best-fit stream processing.
 * Docker 與虛擬機器
 * oo, fp, stream
+* spring cloud gw vs zuul
+* 
 
 ##### Web
 * OAUTH
