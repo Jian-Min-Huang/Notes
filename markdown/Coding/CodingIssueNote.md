@@ -220,3 +220,6 @@
 > Guard Clauses
 > Headless, e2e, selenium
 > httpbin
+> cdn 靜態檔, 全站加速
+> hash salting, aes, rsa, md5
+> ansible chef puppet terraform nagios splunk elk

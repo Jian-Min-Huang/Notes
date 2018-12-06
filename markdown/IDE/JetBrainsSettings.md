@@ -8,6 +8,7 @@
 * recent file
 * keymap
 * quick documentation
+* Make project automatically, Registry -> compiler.automake.allow.when.app.running, Save files
 
 ##### plugin
 * lombok
