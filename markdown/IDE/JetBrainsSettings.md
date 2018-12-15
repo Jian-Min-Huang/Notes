@@ -9,6 +9,7 @@
 * keymap
 * quick documentation
 * Make project automatically, Registry -> compiler.automake.allow.when.app.running, Save files
+* Class count to use import with '*'
 
 ##### plugin
 * lombok

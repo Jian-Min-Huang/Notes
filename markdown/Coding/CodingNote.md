@@ -340,4 +340,5 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 (伯牙) 丹尼爾的一系列新政（github flow mr, checkstyle & pmd, gitlab ci/cd pipeline, efk）
 (伯牙) spring clund, k8s
 (伯牙) 更大的架構 (ark-platform), 架構的演進 實體機部署 虛擬機部署() 雲端虛擬化(AWS) 雲端原生化(docker, k8s)
+(伯牙) gcp, gke, gcs, gcr, stackdriver, big table
 ```
