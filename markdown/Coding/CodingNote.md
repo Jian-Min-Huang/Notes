@@ -342,3 +342,6 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 (伯牙) 更大的架構 (ark-platform), 架構的演進 實體機部署 虛擬機部署() 雲端虛擬化(AWS) 雲端原生化(docker, k8s)
 (伯牙) gcp, gke, gcs, gcr, stackdriver, big table
 ```
+
+看重點來選擇
+分責與轉換器設計

@@ -201,6 +201,7 @@ docker run -it --name tc-agent1 -e "TZ=Asia/Taipei" -e SERVER_URL=192.168.250.37
 
 docker rmi $(docker images -f "dangling=true" -q)
 docker rmi -f $(docker images --filter=reference='10.10.1.31*/*' -q)
+docker rmi -f $(docker images -q)
 
 https://docs.docker.com/install/linux/docker-ce/centos/
 

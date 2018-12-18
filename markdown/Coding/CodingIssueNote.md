@@ -224,3 +224,4 @@
 > hash salting, aes, rsa, md5
 > ansible chef puppet terraform nagios splunk elk
 > Java Duke’s Choice Award
+> terraform, helm

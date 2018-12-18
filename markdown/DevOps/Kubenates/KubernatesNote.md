@@ -43,3 +43,4 @@ kubectl port-forward <pod> <external-port>:<pod-port>
 * kubectl create -f [resources file/folder][namespace]
 
 kubectl get pods | grep Evicted | awk '{print $1}' | xargs kubectl delete pod
+
