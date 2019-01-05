@@ -225,3 +225,10 @@
 > ansible chef puppet terraform nagios splunk elk
 > Java Duke’s Choice Award
 > terraform, helm
+> select for update, race condition
+redis lock
+http://rockingcloud.blogspot.com/2013/01/update-select-race-condition-table.html
+http://rockingcloud.blogspot.com/2013/01/ex-0-1-2-5-6-3.html
+https://blog.xuite.net/vexed/tech/22289223-%E7%94%A8+SELECT+...+FOR+UPDATE+%E9%81%BF%E5%85%8D+Race+condition
+https://blog.csdn.net/zdwzzu2006/article/details/50490157
+https://blog.csdn.net/ToBeABetterOne/article/details/78227033

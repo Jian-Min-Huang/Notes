@@ -102,3 +102,7 @@ $ grep -v grep
 ```sh
 du -sh /opt/nexus3/sonatype-work/nexus3/blobs/default/content
 ```
+
+cat *.sql > all.sql
+
+curl -d '{"testCount":100}' -H "Content-Type: application/json" -X POST http://localhost:8061/draw/normal
