@@ -236,7 +236,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 確保每個重要block有log
 * guava, apache common lang
 * kafka 開獎大概3ms/筆
-* 採新雷
+* while -> stream
 
 ##### 坑
 * 編碼(HTTP, JAVA COMPILE, LOG, DB)
@@ -267,6 +267,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * jpa 名字壞掉直接炸 spring boot直接開不起來又沒有log
 * fuckinnnnnnnnnnnnnnnnnnnnnnng selinux docker 權限R
 * docker 要掛東西要記得權限問題 chmod 777
+* 採新雷 文件殘破 設定零散 版本不穩 套件相依
 
 ##### 寫程式的演進
 ```
@@ -340,8 +341,6 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 (伯牙) 丹尼爾的一系列新政（github flow mr, checkstyle & pmd, gitlab ci/cd pipeline, efk）
 (伯牙) spring clund, k8s
 (伯牙) 更大的架構 (ark-platform), 架構的演進 實體機部署 虛擬機部署() 雲端虛擬化(AWS) 雲端原生化(docker, k8s)
-(伯牙) gcp, gke, gcs, gcr, stackdriver, big table
+(伯牙) gcp, gke, gcs, gcr, trace, stackdriver, big query, memorystore
+(伯牙) 思考事情做出輕重判斷, 釐清責任(主管)
 ```
-
-看重點來選擇
-分責與轉換器設計
