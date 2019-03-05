@@ -228,6 +228,7 @@
 > select for update, race condition
 > Infrastructure as Code
 > spring retry
+> test interface or implement
 redis lock
 http://rockingcloud.blogspot.com/2013/01/update-select-race-condition-table.html
 http://rockingcloud.blogspot.com/2013/01/ex-0-1-2-5-6-3.html

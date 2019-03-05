@@ -191,6 +191,7 @@ docker network inspect zkkafka_inner
 ##### images
 docker run -d -p 5900:5900 -e VNC_PASSWORD=password dorowu/ubuntu-desktop-lxde-vnc
 
+docker run -it --rm redis:3.2.11 redis-cli -h 34.80.46.250 -p 6379 ping
 docker run --name redis -d -p 6379:6379 -e "TZ=Asia/Taipei" redis:3.2.11
 docker run --name oracle -d -p 8888:8080 -p 1521:1521 -e "TZ=Asia/Taipei" sath89/oracle-xe-11g
 docker run --name mysql -d -p 3306:3306 -e "TZ=Asia/Taipei" -e MYSQL_ROOT_PASSWORD=rootroot mysql:5.7
