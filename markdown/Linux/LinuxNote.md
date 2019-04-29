@@ -36,6 +36,9 @@ $ sudo systemctl enable ntpd
 $ systemctl disable firewalld
 $ systemctl stop firewalld
 $ systemctl status firewalld
+
+$ yum install unzip
+$ timedatectl set-timezone Asia/Taipei
 ```
 
 # hosts & hostname
